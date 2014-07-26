@@ -1,9 +1,21 @@
 
 
 body {
-	padding: auto;
 	background-color:#FFEBE0;
+	text-align: center;
+
 }
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	 width: 300px;
+	 height: auto;
+	 border: 25px solid white;
+	 border-radius: 300px;
+	 position: center;
+	}
+
 h1 {
 	color: #2E0013;
 	font-family: 'Shadows Into Light', normal;
@@ -13,4 +25,8 @@ h1 {
 
 p {
 	font-family: 'Neucha', normal;
+}
+
+div{
+
 }
