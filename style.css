@@ -44,5 +44,9 @@ p {
 }
 
 .line {
-	border: 3px dotted black;
+	border: 1px dashed black;
+	max-width: 800px;
+	margin: 30px 300px 0 300px;
+
+
 }
