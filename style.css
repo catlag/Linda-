@@ -65,8 +65,6 @@ div.transbox {
 	margin-top: 40px;
 	margin-bottom: 40px;
 
-	
-
 }
 
 .me {
@@ -75,23 +73,31 @@ div.transbox {
 }
 
 div.image {
-   content:url(http://i.imgur.com/fItdwhn.png);
    position: relative;
-   left: -10px;
-   bottom: -25px;
+   left: -90px;
+   bottom: -130px;
+}
+div.image p {
+	position: relative;
+	left: 160px;
+	bottom: 10px;
 }
 div.imageb {
-   content:url(http://i.imgur.com/fItdwhn.png);
    position: absolute;
    top: 0px;
-   right: 0px;
+   right: 0px; 
+}
+div.imageb p {
+	position: absolute;
+	top: 115px;
+	right: 45px;
 }
 
 
-.slideshow{ 
-	display: inline-block;
+.slideshow { 
 	position: relative;
-	vertical-align: middle;
+	margin: auto;
+    padding: -30px 0;
 }
 
 .circles {
