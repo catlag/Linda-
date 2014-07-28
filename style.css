@@ -3,7 +3,7 @@
 body {
 	background: url(http://i.imgur.com/jm4JcrP.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
 	
 header {
@@ -24,13 +24,6 @@ h1 {
 	padding: 250px 0 0 0;
 	line-height: 30px;
 	
-	
-
-}
-img {
-	border-radius: 150px;
-	padding: -20px auto;
-	
 
 }
 h2, h3, h4 {
@@ -38,7 +31,8 @@ h2, h3, h4 {
 	font-size: 40px;
 	text-align: center;
 	color: black;
-	margin: 10px 0 -20px 0
+	margin: 10px 0 -20px 0;
+
 }
 
 p {
@@ -48,9 +42,9 @@ p {
 	line-height: 20px;
 	color: black;
 	margin: 40px 10px 40px 10px;
-	
+
+}	
    
-}
 
 div.transbox {
 	width: 600px;
@@ -59,24 +53,33 @@ div.transbox {
     opacity: 0.6;
     margin: auto;
     padding: -30px 0;
-    border-radius: 100px
+    border-radius: 100px;
 }
 
+}
 .line {
-	border: 1px dashed black;
+	border: 2px dashed black;
 	max-width: 800px;
-	margin: 50px 500px 50px 500px;
-
-
-}
-
-.lace {
-	background: url("http://i.imgur.com/OYeDfQq.png?1"); 
-	border-radius: 0px;
-	width: 600px;
-	height: auto;
-	position: bottom left;
-	margin: 0 0 0 0;
-}
+	margin: 50px 300px 50px 300px;
 
 }
+
+.me {
+	border-radius: 150px;
+	padding: -20px auto;
+	
+}
+div.image {
+   content:url(http://i.imgur.com/OYeDfQq.png?1);
+   width: 300px;
+   height: 300px;
+   position: relative;
+   bottom: -25px;
+   left: -10px;
+}
+
+
+
+
+
+
