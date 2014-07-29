@@ -2,8 +2,7 @@
 
 body {
 	background: url(http://i.imgur.com/jm4JcrP.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	
 }
 	
@@ -45,7 +44,9 @@ p {
 	margin: 40px 10px 40px 10px;
 
 }	
-   
+
+div.first{ 
+margin- bottom: 30px}   
 
 div.transbox {
 	width: 600px;
@@ -73,38 +74,54 @@ div.transbox {
 }
 
 div.image {
-   position: relative;
-   left: -90px;
-   bottom: -130px;
-}
-div.image p {
-	position: relative;
-	left: 160px;
-	bottom: 10px;
-}
-div.imageb {
    position: absolute;
    top: 0px;
    right: 0px; 
 }
-div.imageb p {
+div.image p {
 	position: absolute;
 	top: 115px;
 	right: 45px;
 }
 
 
-.slideshow { 
-	position: relative;
-	margin: auto;
-    padding: -30px 0;
+div.imageb {
+    height: 200px;  
+ 	width: auto; 
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: -16px;
+   
+   
+}
+div.imageb p {
+
+	display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: -110px;
+    margin-bottom: 0px;
+    padding-top: 300px;
+
 }
 
-.circles {
+div.slideshow { 
+	display:block;
 	position: relative;
+	margin-top: 30px;
+	text-align: center;
+
+	
+	
+
+}
+
+div.circles {
 	display: inline-block;
-	float:left;
-	padding:10px;
+	position: relative;
+
+
+	
 }
 
 
